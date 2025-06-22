@@ -1,0 +1,145 @@
+body{
+  background-color: black;
+}
+.accueil{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+.frappes-acceuill{
+  color: #1F2DA8;
+  width: 584px;
+  height: 60px;
+  background-color: white;
+  padding: 5px;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 42px;
+  margin-top: 25px;
+}
+.accueil P{
+  color: white;
+  margin: 200px 0;
+  font-size: 38px;
+}
+.accueil button{
+  border: none;
+  border-radius: 10px;
+  padding: 10px 65px;
+  font-size: 32px;
+  color: #1F2DA8;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+.accueil button:hover{
+  background-color: #1F2DA8;
+  color: white;
+}
+/* // frappes// */
+.container-home{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+background-image: url("/bgrd.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+}
+ .title{
+  width: 250px;
+  height: 55px;
+  background-color: rgba(31, 45, 168, 0.48);
+  border-radius: 10px;
+  color: white;
+  text-align: center;
+  padding: 5px;
+  font-size: 38px;
+  margin-top: 25px;
+}
+.container-home .container{
+  max-width: 70vw;
+  max-height: 600px;
+  color: white;
+  margin: 230px 0;
+  font-size: 48px;
+}
+.container-home .conter-seconde{
+  display: flex;
+  align-items: center;
+  width:100px;
+  height: 100px;
+  /* background-color: rgba(31, 45, 168, 0.48); */
+  border-radius: 50%;
+  color: white;
+  text-align: center;
+  font-size: 28px;
+}
+.conter-seconde span{
+  margin-left: 20px;
+}
+/* win */
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+}
+.container-win{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+}
+.contain-winer{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  width: 550px;
+  height: 250px;
+  background-color: white;
+  margin-top: 150px;
+  border-radius: 10px;
+  padding: 0;
+}
+.win-container{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+.title-win{
+  margin-bottom: 10px;
+  font-size: 48px;
+  color: green;
+}
+.frappes-win{
+  margin: 20px 0;
+}
+.frappes-win span{
+  font-size: 28px;
+}
+.frappes-win span.fausses{
+  color:red ;
+}
+.contain-winer button{
+  background-color: rgba(31, 45, 168, 0.6);
+  border: none;
+  border-radius: 5px;
+  padding: 10px 25px;
+  color: white;
+  cursor: pointer;
+  font-size: 22px;
+  transition: 0.5s ease;
+}
+.contain-winer button:hover{
+  background-color: rgba(31, 45, 168, 0.8);
+}
+
+
+
+.container-clavier .trouve{
+  color: #1F2DA8;
+}
