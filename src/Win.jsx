@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react'
 export default function Win({ setFrappeLost, setFrappesWin, setListFrappes, setStart, setWin, frappeWin, frappeLost, setScore }) {
     const [niveau, setNiveau] = useState("")
     const parSeconde = (frappeWin.length / 60)
-    const NombreSeconde = 6
+    const NombreSeconde = parSeconde.toFixed(0)
     const NombreFausse = frappeLost.length
     console.log(NombreSeconde);
     useEffect(() => {
