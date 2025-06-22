@@ -29,7 +29,7 @@ export default function Frappes() {
 
     //
     useEffect(() => {
-        if (score > 10) {
+        if (score > 60) {
             setScore(0)
             setStart(false)
             setWin(true)
